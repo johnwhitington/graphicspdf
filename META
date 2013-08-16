@@ -1,6 +1,6 @@
 name="graphicspdf"
 description="PDF version of OCaml's Graphics module"
 version="1.0"
-depends="camlpdf"
+requires="camlpdf"
 archive(byte)="graphicspdf.cma"
 archive(native)="graphicspdf.cmxa"
