@@ -4,7 +4,7 @@ SOURCES = $(foreach x,$(MODS),$(x).ml $(x).mli)
 
 RESULT = graphicspdf
 
-PACKS = bigarray camlpdf
+PACKS = camlpdf
 
 LIBINSTALL_FILES = graphicspdf.a graphicspdf.cma graphicspdf.cmxa \
 $(foreach x,$(MODS),$x.mli) $(foreach x,$(MODS),$x.cmi)

@@ -2,7 +2,7 @@ SOURCES = graphicspdftest.ml
 
 RESULT = graphicspdftest
 
-PACKS = bigarray camlpdf graphicspdf
+PACKS = graphicspdf
 
 OCAMLNCFLAGS = -g
 OCAMLBCFLAGS = -g
