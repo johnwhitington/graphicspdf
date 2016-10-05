@@ -387,7 +387,8 @@ let close_graph () =
 let size_x () = !sizex
 let size_y () = !sizey
 
-let clear_graph () = ()
+let clear_graph () =
+  commands := []
 
 type color = int
 
