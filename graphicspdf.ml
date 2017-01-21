@@ -98,7 +98,7 @@ let fontsize = ref 12
 (* Width comes from Fonttables.textwidth, height is just points. *)
 let text_size str =
   try
-    (int_of_float (ceil (float (Pdfstandard14.textwidth false !font str * !fontsize) /. 1000.)), !fontsize)
+    (int_of_float (ceil (float (Pdfstandard14.textwidth false Pdftext.StandardEncoding !font str * !fontsize) /. 1000.)), !fontsize)
   with
     _ -> raise (Graphic_failure "text_size")
 
